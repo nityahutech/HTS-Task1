@@ -23,6 +23,17 @@
             text-align: center;
             font-weight: 600;
         }
+        /* .header-descriptor{
+            border-right: 1px solid white;
+            border-bottom: 1px solid grey;
+        }
+        .row-descriptor{
+            border-bottom: 2px solid white;
+        }
+
+        .cell-style{
+            border-bottom: 1px solid grey;
+        } */
 
         .odd-cell {
             outline: none;
@@ -44,7 +55,13 @@
 
         table {
             border: none;
+            height: 100%;
+            width:100%;
+            position: absolute;
+            /* border-collapse: collapse; */
         }
+
+    
 
         /* .tr-border {
             border: 1px solid rgb(241, 20, 20);
@@ -53,7 +70,7 @@
 </head>
 
 <body style="margin: 0%; padding: 0%;">
-    <table style="height: 100%;width:100%; position: absolute;;">
+    <table >
         <thead>
             <tr style="height: 2rem;">
                 <th></th>
@@ -64,7 +81,7 @@
                 <th class="descriptor">Friday</th>
                 <th class="descriptor">Saturday</th>
                 <th class="descriptor">Sunday</th>
-                <th class="descriptor">Sunday</th>
+                
             </tr>
         </thead>
         <tbody>
